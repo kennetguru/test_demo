@@ -23,8 +23,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args:
-            -Dsonar.projectKey=
-            -Dsonar.organization=
+            -Dsonar.projectKey=kennetguru_test_demo
+            -Dsonar.organization=kennetguru
             #-Dsonar.sources=true
             #-Dsonar.verbose=true
           projectBaseDir: .
